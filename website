@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/light.css" />
+    <link rel="icon" href="images/4ocean logo .png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>4Ocean</title>
+
+    <meta name="author" content="Jadene Naidoo">
+        <meta name="description" content="Save the turtles">
+        <meta name="keywords" content="save turtles, ocean, species of turtles,4ocean">
+
+</head>
+<body>
+
+
+
+    
+
+    <div class="turtle">
+
+        <video autoplay loop muted play-inline  class="back-video">
+            <source src="videos/pexels-adrien-jacta-5362421 (2160p).mp4" type="video/mp4">
+        </video>
+        <nav id="navbar"> 
+            <img src="images/4ocean logo2.png" class="logo">
+            <ul>
+                <li> <a href="#about">About Us</a></li>
+                <li> <a href="#learn">Learn</a></li>
+                <li> <a href="#gallery">Gallery</a></li>
+                <li> <a href="#help">How to Help?</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h1>4 Ocean</h1>
+            <h2> Climate Change</h2>
+            <a href="#explore">Explore</a>
+        </div>
+
+    </div>
+
+    <section id="about">
+    <h3> About 4 Ocean </h3></div>
+        <p>Our ultimate goal is to remove as much plastic out of the ocean as possible<br>
+         in order to save the marine life that has been around for decades. 4Ocean believes<br>
+        that for our world to be a better place, our ocean's need to be taken care off. Over the<br>
+        years we have been trying to help clean but make people aaware of the problem we face<br>
+        which is Climate change. Climate change has caused chaotic events which are ireversible,<br>
+        such as the glaciers melting due to extreme heat, which not only causes the ocean's to <br>
+        rise but has also increased the water tempretures. Due to the water tempretures increasing,<br>
+        sea turtle repoduction has changed as they rely on the tempretures to determine the sex. <br>
+        Due to warmer tempretures turtles have been producing majority female hatchlings, which is <br>
+        ideal as the male turtles are becoming less as they need cooler tempretures to hatch. Therefore<br>
+        if we do not take a stance to fight climate change we could loose sea turtles to extinction.</p>
+                </div>x
+    </section>
+
+
+    <section id="explore">
+<div class="container">
+    <span class="text first-text"> Why are Turtles so</span>
+    <span class="text sec-text">Important?</span>
+</div>
+
+<div class="paragraph1">
+    <p> Turtles are known to be one of the oldest creatures to live on Earth, they have played vital roles <br>
+        in maintaining the health of the world's oceans for more than 100 million years. Their roles range <br>
+        from maintaining the coral reef production and their ecosystems, to being the ideal transportation for<br>
+         essential nutrients to be collected from oceans to beaches and coastal dunes. Without the turtles many <br>
+         of the species of coral reefs and ecosystems would not be able to survive, turtles have thus played a <br>
+          huge helping hand it keeping the ocean’s in order.
+        <br>
+    <br> </p>
+</div>
+</section>
+
+
+<h3> Endangered Turtles Top #5</h3>
+
+
+<section id="gallery">
+<section class="section1">
+<!--image gallery for automatic slider-->
+
+<div id="turtle1" class="turtle1">
+    
+    <span id="bluetext" class="titlea"> Green Sea Turtles</span>
+    <div class="slidea" onmousemove="m(event)">
+        <img class="img" src="images/g2.jpeg" alt="green turtle photo">
+        <img class="img" src="images/g4.jpeg" alt="green turtle photo">
+        <img class="img" src="images/g5.jpeg" alt="green turtle photo">
+        <img class="img" src="images/g1.jpeg" alt="green turtle photo">
+        <img class="img" src="images/g3.jpeg" alt="green turtle photo">
+        <img class="img" src="images/g6.jpeg" alt="green turtle photo">
+        <img class="img" src="images/g7.jpeg" alt="green turtle photo">
+        <img class="img" src="images/g8.jpeg" alt="green turtle photo">
+        <div id="hov"> Scroll down to Swipe right</div>
+    </div>
+</div>
+</section>
+
+<section class="section2">
+    <!--image gallery for automatic slider-->
+    
+    <div id="turtle2" class="turtle2">
+        
+        <span id="redtext" class="titleb"> Leather Back Turtles </span>
+        
+        <div class="slideb" onmousemove="m(event)">
+            <img class="img2" src="images/l1.jpeg" alt="leather back photo">
+            <img class="img2" src="images/l2.jpeg" alt="leather back photo">
+            <img class="img2" src="images/l3.jpeg" alt="leather back photo">
+            <img class="img2" src="images/l4.jpeg" alt="leather back photo">
+            <img class="img2" src="images/l5.jpeg" alt="leather back photo">
+            <img class="img2" src="images/l6.jpeg" alt="leather back photo">
+            <img class="img2" src="images/l7.jpeg" alt="leather back photo">
+            <img class="img2" src="images/l8.jpeg" alt="leather back photo">
+            <div id="hov"> Scroll down to Swipe right</div>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="section3">
+        <!--image gallery for automatic slider-->
+        
+        <div id="turtle3" class="turtle3">
+            
+            <span id="yellowtext" class="titlec"> Hawksbill Turtle </span>
+            
+            <div class="slidec" onmousemove="m(event)">
+                <img class="img3" src="images/h1.jpeg" alt="hawksbill photo">
+                <img class="img3" src="images/h2.jpeg" alt="hawksbill photo">
+                <img class="img3" src="images/h3.jpeg" alt="hawksbill photo">
+                <img class="img3" src="images/h4.jpeg" alt="hawksbill photo">
+                <img class="img3" src="images/h5.jpeg" alt="hawksbill photo">
+                <img class="img3" src="images/h6.jpeg" alt="hawksbill photo">
+                <img class="img3" src="images/h7.jpeg" alt="hawksbill photo">
+                <img class="img3" src="images/h8.jpeg" alt="hawksbill photo">
+                <div id="hov"> Scroll down to Swipe right</div>
+            </div>
+        </div>
+        </section>
+    
+        <section class="section4">
+            <!--image gallery for automatic slider-->
+            
+            <div id="turtle4" class="turtle4">
+                
+                <span id="greentext" class="titled"> Olive Ridley Turtle </span>
+                
+                <div class="slided" onmousemove="m(event)">
+                    <img class="img4" src="images/07.jpeg" alt="Olive Ridley photo">
+                    <img class="img4" src="images/o2.jpeg" alt="Olive Ridley photo">
+                    <img class="img4" src="images/o3.jpeg" alt="Olive Ridley photo">
+                    <img class="img4" src="images/04.jpeg" alt="Olive Ridley photo">
+                    <img class="img4" src="images/o5.jpeg" alt="Olive Ridley photo">
+                    <img class="img4" src="images/06.jpeg" alt="Olive Ridley photo">
+                    <img class="img4" src="images/o1.jpeg" alt="Olive Ridley photo">
+                    <img class="img4" src="images/08.jpeg" alt="Olive Ridley photo">
+                    <div id="hov"> Scroll down to Swipe right</div>
+                </div>
+            </div>
+            </section>
+
+            <section class="section5">
+                <!--image gallery for automatic slider-->
+                
+                <div id="turtle5" class="turtle5">
+                    
+                    <span id="pinktext" class="titlee"> Loggerhead Turtle</span>
+                    
+                    <div class="slidee" onmousemove="m(event)">
+                        <img class="img5" src="images/h8.jpeg" alt="Loggerhead Turtle photo">
+                        <img class="img5" src="images/h2.jpeg" alt="Loggerhead Turtle photo">
+                        <img class="img5" src="images/h3.jpeg" alt="Loggerhead Turtle photo">
+                        <img class="img5" src="images/h4.jpeg" alt="Loggerhead Turtle photo">
+                        <img class="img5" src="images/h5.jpeg" alt="Loggerhead Turtle photo">
+                        <img class="img5" src="images/h6.jpeg" alt="Loggerhead Turtle photo">
+                        <img class="img5" src="images/h7.jpeg" alt="Loggerhead Turtle photo">
+                        <img class="img5" src="images/h1.jpeg" alt="Loggerhead Turtle photo">
+                        <div id="hov"> Scroll down to Swipe right</div>
+                    </div>
+                </div>
+                </section>
+            </section>
+
+                
+    
+            <!--anatomy sectionr-->
+                    
+<section id="learn"></section>
+                    <section class="anatomy-bg">
+
+                        <div class="animation-scroll">
+                            <sl-animation name="jackInTheBox"  duration="2000" iterations="1"><div class="box">
+                                <h4> The Anatomy of a Turtle</h4></div>
+                            </sl-animation>
+                        </div>
+
+                    <div class="containera">
+                        <div class="profile">
+                            <div class="contenta">
+                                <div class="header">
+                                    <img src="images/flipper.jpeg"/>
+                                </div>
+                                    <div class="infos">
+                                        <h5 class="name">The Flipper</h5>
+                                        <p class="titleaa">The flipper helps the turtles to swim more<br>
+                                        efficiently in the water but also allows them to move well on land when it is time to lay their eggs</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="containerb">
+                        <div class="profileb">
+                            <div class="contentb">
+                                <div class="headerb">
+                                    <img src="images/carapace.jpeg"/>
+                                </div>
+                                    <div class="infosb">
+                                        <h5 class="nameb">The Carapace</h5>
+                                        <p class="titlebb">This is also known a the shell of the turtle<br>
+                                            it allows for protection against predators in the wild </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+
+
+                   
+                    <div class="containera2">
+                        <div class="profilea2">
+                            <div class="contenta2">
+                                <div class="headera2">
+                                    <img src="images/plastron.jpeg"/>
+                                </div>
+                                    <div class="infosa2">
+                                        <h5 class="namea2">The Plastron</h5>
+                                        <p class="titlea2">This is the underbelly of the turtle which is also <br>
+                                            covered in the shell piece in order to protect the organs of the turtle from underneath</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="containerb2">
+                        <div class="profileb2">
+                            <div class="contentb2">
+                                <div class="headerb2">
+                                    <img src="images/head.jpeg"/>
+                                </div>
+                                    <div class="infosb2">
+                                        <h5 class="nameb2">The Head</h5>
+                                        <p class="titleb2">The head of the turtle is made up of scales to protect them in the water and on land, their eyes are equiped to see in dark areas and their beaks are great for latching onto food </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                </section>
+            </section>
+
+
+
+            <section id="help"></section>
+                <div id="scroll-container">
+                    <div id="scroll-text">How to Help?</div>
+                  </div>
+
+                  <section class="sectionh">
+                    <!--image gallery for automatic slider-->
+                    
+                    <div id="help" class="help">
+                        
+                        <div class="help1" onmousemove="m(event)">
+                            <img class="imgh" src="images/recycle-01.jpg" alt="help">
+                            <img class="imgh" src="images/smiley-01.jpg" alt="help">
+                            <img class="imgh" src="images/sign up-01.jpg" alt="help">
+                            <div id="hov"></div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+                   
+                    <!--join us-->
+
+                    <section class="join">
+                    <h6>Join us on:</h6>
+                    <div class="icon">
+                        <div style="font-size: 50px;">
+                        <sl-icon name="facebook"></sl-icon>
+                        <sl-icon name="instagram"></sl-icon>
+                        <sl-icon name="twitter"></sl-icon>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                
+                    
+
+<!--script tags-->
+  
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/shoelace-autoloader.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/components/tooltip/tooltip.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/components/button/button.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/components/animation/animation.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/components/details/details.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/components/icon/icon.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
